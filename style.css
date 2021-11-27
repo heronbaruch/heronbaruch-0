@@ -1,8 +1,23 @@
+
+.header h1{
+    background-image: url(./images/madeira-fundo);
+    height: 250px;
+}
+
+.titulo {
+    text-align: center;
+    
+}
+
 .nav-menu li {
     display: inline-block;
 }
 
 .foto-perfil{
     border-color: darkslategray;
-    border-radius: 150px;
+    border-radius: 150px;   
+}
+
+.foto-perfil img{
+    border: 5px dotted #FF1493; padding:1em;
 }
