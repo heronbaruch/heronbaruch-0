@@ -1,3 +1,8 @@
 .nav-menu li {
     display: inline-block;
 }
+
+.foto-perfil{
+    border-color: darkslategray;
+    border-radius: 150px;
+}
