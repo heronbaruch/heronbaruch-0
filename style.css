@@ -1,0 +1,49 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #0F0F0F;
+    color:#f8f4ed;
+}
+
+.cabeca h1{
+    /* background-image: url(./images/madeira-fundo);
+    height: 250px; */
+    color: #f8f4ed;
+}
+
+.titulo {
+    text-align: center;
+    
+}
+
+.nav-menu li {
+    display: inline-block;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.foto-perfil{
+    border-color: darkslategray;
+    border-radius: 150px; 
+    /* float: left;   */
+}
+
+.foto-perfil img{
+    border: 5px dotted #FF1493; padding:1em;
+}
+.about-me {
+    float: right;
+}
+
+.rodape{
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  /* background-color: #d4d6c8; */
+  width: 100%;
+}
+
+.texto-sobre{
+    background-color: #EB4B33;
+    width: 400px;
+    height: 400px;
+}

@@ -4,34 +4,62 @@
 <head>
   <meta charset="UTF-8">
   <title>HTML</title>
+  <title>Portifólio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
   <ul>
+  
+  <header class="cabeca">
+    <h1 class="titulo">Heron Baruch Alves</h1>
+  </header>
+
+<nav>
+  <ul class=nav-menu>
     <li><a href="#foto">Foto</a></li>
     <li><a href="#sobre-mim">Sobre mim</a></li>
     <li><a href="#habilidades">Habilidades</a></li>
     <li><a href="#blog">Blog</a></li>
   </ul>
   <h1>Heron Baruch Alves</h1>
-
+</nav>  
   <img src="./images/Heron-foto-boa.jpg" alt="Foto homem sorrindo, cabelo longo, barba cumprida, vestindo camisa xadrez"
     width="150px" id="foto">
   <br>
+
+  <nav>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/heron-baruch-95b79610a/" target="_blank">LinkedIn</a></li>
+      <li><a href="https://github.com/heronbaruch" target="_blank">GitHub </a></li>
+    </ul>
+  </nav>
   <br>
-  <h4 id="sobre-mim">Sobre mim.</h4>
-  Me chamo <i>Heron, nascido em 96 Brasileiro nascido em Suzano - São Paulo</i>, comecei com tecnologia ainda criança com o primeiro computador da casa, durante a adolecencia fiz um curso voltado para produção audiovisual, por volta dos 17 anos fiz tecnico em informatica pela ETEC de Poá - SP, acabei trabalhando com eventos de tecnologia realizando gravação, captura e edição, devido fatores pandêmicos resolvi retornar ao mundo da programação.
+  <div class="texto-sobre">
+  <article>
+    <h4 id="sobre-mim">Sobre mim.</h4>
+    Me chamo <i>Heron, Brasileiro, nascido em 96, no município de Suzano - São Paulo</i>, tive inicio no mundo da tecnologia ainda criança com o primeiro computador da casa, durante a adolecencia fiz um curso voltado para produção audiovisual, por volta dos 17 anos fiz tecnico em informatica pela ETEC de Poá - SP, acabei trabalhando com eventos de tecnologia realizando gravação, captura e edição, devido fatores pandêmicos resolvi retornar ao mundo da programação.
+  </article>
+</div>
 
   <br>
   <h4 id="habilidades">Algumas de minhas Habilidades.</h4>
   <ul>
     <br>
-   
+    <li><strong>Liderança</strong></li>
+    <li>Determinação</li>
+    <li>Objetividade</li>   
   </ul>
 
   Gosto bastante de acompanhar o mundo da Tecnologia e Hardware atravez do <a target="_blank" href="https://adrenaline.com.br/" id="blog">Adrenaline</a>
 
+  <footer>
+    <p class="rodape">
+      Site para portifólio com finalidade de demonstrar minhas experiencia em desenvolvimento web.
+    </p>
+  </footer>
 </body>
 
 </html>
